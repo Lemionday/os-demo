@@ -9,7 +9,6 @@ import (
 	"os"
 
 	"github.com/gorilla/mux"
-	"github.com/joho/godotenv"
 	"github.com/theLemionday/os-demo/models"
 
 	"go.mongodb.org/mongo-driver/bson"
@@ -23,18 +22,18 @@ var collection *mongo.Collection
 
 // create connection with mongo db
 func init() {
-	loadTheEnv()
+	// loadTheEnv()
 	createDBInstance()
 }
 
-func loadTheEnv() {
-	// load .env file
-	err := godotenv.Load(".env")
+// func loadTheEnv() {
+// 	// load .env file
+// 	err := godotenv.Load(".env")
 
-	if err != nil {
-		log.Fatalf("Error loading .env file")
-	}
-}
+// 	if err != nil {
+// 		log.Fatalf("Error loading .env file")
+// 	}
+// }
 
 func createDBInstance() {
 	// DB connection string
