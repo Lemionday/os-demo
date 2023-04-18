@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import { Box, Button, Grid, List, ListItem, TextField } from "@mui/material";
 import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
 
-let endpoint = "http://localhost:8080";
+let endpoint = "http://20.243.136.27:8080";
 
 function Updated() {
   const [isUpdated, setIsUpdated] = useState(true);
