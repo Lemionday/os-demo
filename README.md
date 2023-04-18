@@ -17,3 +17,16 @@ Biến môi trường:
    - DB_COLLECTION_NAME: Tên Collection trong cơ sở dữ liệu
 - Client:
    - SERVER_URL: dùng để kết nối đến Server
+
+# Chạy ứng dụng Web
+1. Trong thư mục os-demo, chạy file main.go bằng lệnh: go run main.go
+2. Trong thư mục frontend,
+
+   a. Cài các gói phụ thuộc: npm install
+
+   b. Chạy frontend: npm start
+
+# Một số hình ảnh về trang web
+Truy cập ứng dụng bằng đường link của Azure tại cổng 3000.
+
+## Index page
